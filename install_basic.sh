@@ -2,7 +2,7 @@
 set -e # exit in case of any error
 
 cd ~/.rcasif
-cat ~/.rcasif/basicrc > ~/.vimrc
-cp ~/.vimrc ~/.vimrc_bk
+cp ~/.vim/vimrc ~/.vim/vimrc_bk
+cat ~/.rcasif/basicrc > ~/.vim/vimrc
 echo "My basic RC file is loaded in to ~./.vimrc file"
-echo "Previous vimrc is save to ~/.vimrc_bk file"
+echo "Previous vimrc is save to ~/.vim/vimrc_bk file"
